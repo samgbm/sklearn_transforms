@@ -1,6 +1,5 @@
 from setuptools import setup
 
-
 setup(
       name='my_custom_sklearn_transforms',
       version='1.0',
@@ -14,6 +13,9 @@ setup(
       license='BSD',
       packages=[
             'my_custom_sklearn_transforms'
+      ],
+      install_requires=[
+         'lightbgm==2.3.1'
       ],
       zip_safe=False
 )
